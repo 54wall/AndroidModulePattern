@@ -74,3 +74,7 @@ dependencies {
     annotationProcessor deps.dagger.android_support_compiler
     annotationProcessor deps.dagger.compiler
 }
+
+repositories {
+    google()
+}
